@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First website</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <main>
+        <header"><h1>Race Registration!</h1></header>
+        <hr>
+        <section>
+            <form action="/dungon">
+                <div>
+                    <label for="fname">First name :</label>
+                    <input type="text" id = "fname" name = "fname" required>
+                    <label for="lname">Last name :</label>
+                    <input type="text" id = "lname" name = "lname" required>
+                </div><br><br>
+
+                <div>
+                    <label for="Race">Please select a race :</label>
+                    <p>
+                        <input type="radio" name="race" id="frace" value="funrun">
+                        <label for="frace">Fun run 5k</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="race" id="hmarathon" value="halfmarathon">
+                        <label for="hmarathon">Half Marathon</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="race" id="fmarathon" value="fullmarathon">
+                        <label for="fmarathon">Full Marathon</label>
+                    </p>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="pass">Password</label>
+                    <input type="password" name="password" id="pass" required>
+                </div><br>
+
+                <div>
+                    <label for="age">Select age group</label>
+                    <select name="agegroup" id="agegroup">
+                        <option value="kids">Under 18</option>
+                        <option value="ya">18-30</option>
+                        <option value="adults">31-50</option>
+                        <option value="old">Older than 51</option>
+                    </select>
+                </div><br>
+
+                <button>Register!!</button>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
