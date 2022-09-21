@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Code*/
+
+* {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #4e44ab;
+    width: 100%;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .header-brand {
+    font-family: 'Catamaran' ;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 22px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+    
+}
+
+header nav ul li a{
+    font-family: 'catamaran' ;
+    font-size: 16px;
+    color: #f4f4f4; 
+}
+
+/*INDEX*/
+
+.index-banner{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('Images/Banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: Catamaran;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 10px;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #fff; 
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h3 {
+    font-family: Cormorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    margin: 10px;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff; 
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.wrapper div h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px;
+
+    color: #1d174a; 
+    text-align: center;
+   /* text-shadow: 2px 2px 5px #111; */
+}
+
+.wrapper div p {
+    font-style: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+#button1 {
+    font-family: 'Catamaran';
+    font-size: 20px;
+    color: #4e44ab;
+    width: fit-content;
+    display: inline-block;
+    border: 2px solid #4e44ab;
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 7rem;
+    margin-top: 15px;
+}
+
+#button2 {
+    font-family: 'Catamaran';
+    font-size: 20px;
+    color: #4e44ab;
+    display: inline-block;
+    border: 2px solid #4e44ab;
+    position: relative;
+    margin: 20px 100px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#button1:hover, #button2:hover {
+    color: #e7e6e6;
+    background: #4e44ab;
+}
+
+.index-box1 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: 200px;
+    background-color: #e7e6e6;
+}
+
+.index-box2 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: 200px;
+    background-color: #e7e6e6;
+}
+
+.index-box3 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: 230px;
+    background-color: #e7e6e6;
+}
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #4e44ab;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 300;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 0 22px 0;
+}
+
+footer ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 25px;
+    
+}
+
+footer ul li a{
+    font-family: catamaran;
+    font-size: 16px;
+    color: #f4f4f4;
+}
