@@ -71,11 +71,6 @@ header {
     border-bottom-right-radius: 10px;
 }
 
-.header-brand:hover {
-    color: #ffaa7c;
-    transition: 2s;
-}
-
 header .header-brand {
     font-family: 'Catamaran' ;
     font-size: 24px;
@@ -86,6 +81,11 @@ header .header-brand {
     margin: 0 auto;
     text-align: center;
     padding: 20px 0;
+}
+
+header .header-brand:hover {
+    color: #ffaa7c;
+    transition: 2s;
 }
 
 header nav ul {
@@ -105,7 +105,7 @@ header nav ul li a{
     font-family: 'catamaran' ;
     font-size: 16px;
     color: #f4f4f4; 
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 header nav ul li a:hover {
@@ -119,147 +119,52 @@ header nav ul li a:hover {
 
 /*INDEX*/
 
-.index-banner{
-    width: 100%;
-    height: calc(100vh - 120px);
-    background-image: url('Images/Banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: table;
-}
-
-.vertical-center {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.index-banner h2 {
-    font-family: Catamaran;
-    font-size: 60px;
-    font-weight: 900;
-    margin: 10px;
+h1 {
+    font-family: 'Catamaran';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
     text-transform: uppercase;
     line-height: 70px;
-    color: #fff; 
+    color: #1d174a; 
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    border: 5px solid #4e44ab;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 1s;
 }
 
-.index-banner h3 {
-    font-family: Cormorant Garamond;
-    font-size: 28px;
-    font-weight: 100;
-    margin: 10px;
-    font-style: italic;
-    line-height: 40px;
-    color: #fff; 
-    text-align: center;
-    text-shadow: 2px 2px 8px #111;
+h1:hover {
+    color: #e7e6e6;
+    background-color: #4e44ab;
 }
 
-.wrapper div h3 {
+.wrapper article h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: sans-serif;
     font-size: 28px;
     font-weight: 500;
-    padding: 20px;
-    padding-top: 30px;
+    padding: 20px 100px 10px 100px;
     color: #1d174a; 
-    text-align: center;
-   /* text-shadow: 2px 2px 5px #111; */
+    text-align: left;
 }
 
-.wrapper div p {
+.wrapper article p {
     font-style: sans-serif;
     font-size: 20px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    text-align: left;
+    padding: 10px 100px 0px 100px;
     line-height: 25px;
 }
 
-#button1 {
-    font-family: 'Catamaran';
-    font-size: 20px;
+.wrapper span {
+    font-family: 'catamaran';
     color: #4e44ab;
-    width: fit-content;
+    font-weight: 400;
     display: block;
-    border: 2px solid #4e44ab;
-    padding: 8px;
-    border-radius: 10px;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 20px;
+    font-size: 18px;
     text-align: center;
-    transition: 0.5s;
-    margin-bottom: 20px;
 }
-
-#button2 {
-    font-family: 'Catamaran';
-    font-size: 20px;
-    color: #4e44ab;
-    width: fit-content;
-    display: block;
-    border: 2px solid #4e44ab;
-    padding: 8px;
-    border-radius: 10px;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 22px;
-    text-align: center;
-    transition: 0.5s;
-    margin-bottom: 20px;
-}
-
-#button3 {
-    font-family: 'Catamaran';
-    font-size: 20px;
-    color: #4e44ab;
-    width: fit-content;
-    display: block;
-    border: 2px solid #4e44ab;
-    padding: 8px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 22px;
-    text-align: center;
-    transition: 0.5s;
-    margin-bottom: 20px;
-}
-
-#button1:hover, #button2:hover, #button3:hover {
-    color: #e7e6e6;
-    background: #4e44ab;
-    transform: scale(1.2);
-}
-
-/*.index-box1 {
-    margin: 20px;
-    border-radius: 10px;
-    width: calc(100%-10px);
-    height: 200px;
-    background-color: #e7e6e6;
-    padding-bottom: auto;
-}
-
-.index-box2 {
-    margin: 20px;
-    border-radius: 10px;
-    width: calc(100%-10px);
-    height: 200px;
-    background-color: #e7e6e6;
-}
-
-.index-box3 {
-    margin: 20px;
-    border-radius: 10px;
-    width: calc(100%-10px);
-    height: 220px;
-    background-color: #e7e6e6;
-    margin-bottom: 20px;
-} */
 
 .index-box1 {
     margin: 20px;
@@ -267,25 +172,8 @@ header nav ul li a:hover {
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
-    padding-bottom: 20px;
-}
-
-.index-box2 {
-    margin: 20px;
-    border-radius: 10px;
-    width: calc(100%-10px);
-    height: auto;
-    background-color: #e7e6e6;
-    padding-bottom: 20px;
-}
-
-.index-box3 {
-    margin: 20px;
-    border-radius: 10px;
-    width: calc(100%-10px);
-    height: auto;
-    background-color: #e7e6e6;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 
@@ -382,17 +270,13 @@ footer ul li a:hover {
         line-height: 40px;
     }
 
-    .index-box1, .index-box2, .index-box3 {
-        padding-top: 20px;
+    h1{
+        margin-left: 120px;
+        margin-right: 120px;
     }
 
-    .wrapper div p {
-        font-size: 22px;
-    }
 
-    #button1, #button2 {
-        margin-top: 30px;
-    }
+
 }
 
 @media (min-width: 1200px) {
@@ -406,6 +290,28 @@ footer ul li a:hover {
         margin-right: 220px;
     }
 
+    h1{
+        margin-left: 220px;
+        margin-right: 220px;
+    }
 }
 
+/*For smaller display*/
 
+@media (max-width : 1199px) {
+    .wrapper article p {
+        padding: 10px 30px 0px 30px;
+        line-height: 25px;
+    }
+
+    .wrapper article h3 {
+        font-size: 25px;
+        font-weight: 500;
+        padding: 20px 30px 10px 30px;
+    }
+
+    .index-box1 {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+}
