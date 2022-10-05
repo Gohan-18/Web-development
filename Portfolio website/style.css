@@ -115,9 +115,14 @@ header nav ul li a:hover {
     padding: 3px 5px 3px 5px;
     border-radius: 5px;
     color: #4e44ab; 
+    font-weight: bold;
 } 
 
 /*INDEX*/
+
+#homeBtn {
+    font-weight: bold;
+}
 
 .index-banner{
     width: 100%;

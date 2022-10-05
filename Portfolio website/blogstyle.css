@@ -59,6 +59,10 @@ main {
 
 /*Header code*/
 
+#blogBtn {
+    font-weight: bold;
+}
+
 header {
     position: fixed;
     top: 0;
