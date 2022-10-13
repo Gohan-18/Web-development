@@ -141,11 +141,11 @@ header nav ul li a:hover {
 
 .index-banner h2 {
     font-family: Catamaran;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 900;
     margin: 10px;
     text-transform: uppercase;
-    line-height: 70px;
+    line-height: 60px;
     color: #fff; 
     text-align: center;
     text-shadow: 2px 2px 8px #111;
@@ -228,10 +228,10 @@ header nav ul li a:hover {
     padding: 8px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 22px;
+    margin-top: 25px;
     text-align: center;
     transition: 0.5s;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #button1:hover, #button2:hover, #button3:hover {
@@ -349,6 +349,12 @@ footer ul li a:hover {
 /*For big screen devices*/
 
 @media (min-width: 800px) {
+
+    .index-banner h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
     .wrapper {
         margin-left: 100px;
         margin-right: 100px;
