@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code */
+
+* {
+    text-decoration: none;
+}
+
+
+header {
+    background: #fefcfc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 110px;
+    box-shadow: 6px 2px 20px gray;
+    text-align: center;
+}
+
+header h4 {
+    font-family: 'Catamaran' ;
+    font-size: 24px;
+    font-weight: 900;
+    color: #006eff;
+    width: fit-content;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;
+    margin : 0 auto;
+    padding: 18px 0 6px 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header h4:hover {
+    color:  #fc4848;
+    border: 3px solid  #fc4848;
+}
+
+/*
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px 14px;
+    margin-top: 35px;
+    float: right;
+}
+*/
+header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'catamaran' ;
+    font-size: 20px;
+    color: #192131;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3px;
+    position: relative;
+} 
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:  #fc4848;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+main  {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* border: 5px solid #145ee8; */
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.container h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    line-height: 40px;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid #192131;
+    background: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #fc4848;
+    border: 3px solid #fc4848;
+}
+
+/* For bigger displays */
+
+
+@media (min-width: 665px) {
+    header {
+        background: #fefcfc;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 110px;
+        box-shadow: 6px 2px 20px gray;
+    }
+    
+    header div {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    header h4 {
+        font-family: 'Catamaran' ;
+        font-size: 24px;
+        font-weight: 900;
+        color: #006eff;
+        border: 3px solid #006eff;
+        border-radius: 5px;
+        text-transform: uppercase;
+        display: inline-block;
+        float: left;
+        padding: 8px 14px;
+        margin-top: 30px;
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 8px 14px;
+        margin-top: 35px;
+        float: right;
+    }
+    
+    header nav ul li a{
+        text-decoration: none;
+        font-family: 'catamaran' ;
+        font-size: 20px;
+        color: #192131;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .container h2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1060px) {
+    header div {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
