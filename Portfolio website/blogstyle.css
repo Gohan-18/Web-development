@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik:wght@300;400&display=swap');
+
 /* My Code*/
 
 * {
@@ -154,7 +156,8 @@ h1:hover {
 }
 
 .wrapper div p {
-    font-style: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #2c293c;
     font-size: 20px;
     text-align: center;
     padding: 20px 100px 30px 100px;
