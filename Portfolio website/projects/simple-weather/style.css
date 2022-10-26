@@ -25,6 +25,7 @@ section {
     margin: 10px;
     padding: 30px 30px;
     border-radius: 20px;
+    backdrop-filter: blur(8px);
 }
 
 div {
