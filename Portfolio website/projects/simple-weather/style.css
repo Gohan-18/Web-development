@@ -6,19 +6,22 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
 .container {
     /* background: #006d77; */
-    background: url("https://source.unsplash.com/1600x900/?landscape");
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
 }
 
 section {
     font-family: 'Poppins', sans-serif;
-    color: #e2e3e4;
+    /* color: #e2e3e4; */
     background: #000000ba;
     width: 100%;
     max-width: 500px;
@@ -64,6 +67,10 @@ button {
 
 button:hover {
     background-color: #6f6f6f67;
+}
+
+div {
+    color: #e2e3e4;
 }
 
 div p {
