@@ -156,6 +156,7 @@ h1:hover {
     padding: 20px;
     color: #1d174a; 
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .wrapper div p {
@@ -199,7 +200,7 @@ h1:hover {
 
 .index-box1 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
@@ -210,7 +211,7 @@ h1:hover {
 
 .index-box2 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
@@ -221,7 +222,7 @@ h1:hover {
 
 .index-box3 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;

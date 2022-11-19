@@ -269,7 +269,7 @@ header nav ul li a:hover {
 
 .index-box1 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
@@ -278,7 +278,7 @@ header nav ul li a:hover {
 
 .index-box2 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
@@ -287,7 +287,7 @@ header nav ul li a:hover {
 
 .index-box3 {
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: calc(100%-10px);
     height: auto;
     background-color: #e7e6e6;
